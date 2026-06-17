@@ -149,3 +149,21 @@ function updateMovie(id, newDataObject) {
 function deleteMovie(id) {
   movies = movies.filter(movie => movie.id !== id);
 }
+
+
+let nums=[1,2,3,4,5,6,7,8,9,10];
+let a=nums.filter(son => son %2 ===0)
+console.log(a);
+
+
+let nums=[1,2,3,4,5,6,7,8,9,10];
+let a=nums.reduce((acc,cur)=>{
+  return acc+cur;
+})
+console.log(a);
+
+
+let nums=[1,2,3,4,5,6,7,8,9,10];
+let a=nums.map((w)=>w **2)
+console.log(a);
+
